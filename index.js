@@ -31,7 +31,6 @@ function extractStories(html) {
       '<li class="latest-stories__item"',
       i
     );
-    if (liStart === -1) break;
 
     const liEnd = sectionOfHTMLContent.indexOf("</li>", liStart);
     // console.log(liStart,liEnd)
